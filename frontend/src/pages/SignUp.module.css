@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-color: lightgray;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+    background: white;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 2rem;
+}
+
+.card input {
+    display: block;
+    width: 100%;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+.card button {
+    width: 100%;
+    background-color: darkolivegreen;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.card p {
+    margin: 1rem;
+    
+}

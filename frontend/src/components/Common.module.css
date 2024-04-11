@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 900px;
+    padding: 1em; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background: lightcoral;
+    padding: 0.5em 1em;
+    border: none;
+    outline: none;
+    border-radius: 4px; 
+    color: #333;
+    font-size: 1rem;
+}
